@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>PS4</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+
+        <a class="text-decoration-none text-secondary" href="slike.html"><h1>Servisne Slike</h1></a>
+        <a class="text-decoration-none text-secondary" href="index.html"><h1>Kontakt mob : 062 538 884 ili na Viber</h1></a>
+                 
+      </div>
+      
+  </header>   
+  <iframe width="620" height="350" src="https://www.youtube.com/embed/KXom6Mbm0Oo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+      
+        <div id="wrapper">
+          
+            <h2 style="color: red;">Kompjuteri i Laptopi servis <br>
+              PS3 konzole servis i instalacija igrica <br>
+              XBOX servis <br>Čišćenje i zamjena termalne paste 20 km </h2>
+          
+            <p class="oznaciti">Thermal Grizzly<em>(Termalna Pasta)</em></p>
+            <h3>Jailbreak PS4 konzole  2 igrice 20 km</h3>
+              <p>
+               <strong>
+                Cijena po igrici 10 km
+                <br>
+                System update na konzoli mora biti ispod 9.50 <br>Na ovim sistemima ostanite i zaustavite update na konzoli uskoro dolazi Jailbreak za sisteme 9.04,9.03,
+                <br>
+                Trenutno radi na ovom sistemu 9.00 ili manji od 9.00.8,50.8,03.8,00.7,55...
+                <br>
+                Snimanje igrica po zelji uz dogovor
+               </strong>
+          </div>
+        </div>
+      </div>
+      <script>
+        var index = 0;
+        var images = [
+          "https://image.smythstoys.com/zoom/207308.jpg",
+          "https://www.king-games.co.il/files/products/product5299_image1_2021-03-08_11-34-09.jpg",
+          "https://m.media-amazon.com/images/I/612UsRLsMNL._SL1160_.jpg",
+          "https://m.media-amazon.com/images/I/61ShaapLY6L._AC_SX679_.jpg",
+          "https://m.media-amazon.com/images/I/61rBM7DGUxL._AC_SX466_.jpg",
+          "https://s9.pik.ba/galerija/2022-02/04/11/slika-21548-61fd01f184ccb-velika.jpg",
+          "https://assets-prd.ignimgs.com/2020/12/04/cod-blops-cold-war-ps4-1607116653147.jpeg",
+          "https://brutalgamer.com/wp-content/uploads/2020/04/AC-Valhalla-box-art.jpg",
+          "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2943/2943094_sd.jpg",
+          "https://www.lifewire.com/thmb/lpBkwxAoQrOKZG2srprHlY99A24=/900x0/filters:no_upscale():max_bytes(150000):strip_icc()/CapcomResidentEvilVillage-9075a35590ed4016b4e6cc6bc7fa5a07.jpeg",
+          "https://m.media-amazon.com/images/I/71EMG8gbH9L._SL1500_.jpg",
+          "https://www.euphorialive.com/wp-content/uploads/2022/02/dlight2.jpg",
+          "https://d3fa68hw0m2vcc.cloudfront.net/4b4/251750023.jpeg",
+          "https://images.kochmedia.com/deatch/xl/1072069.jpg",
+          "https://m.media-amazon.com/images/I/81fypNGG2uL._SL1500_.jpg",
+          "https://playnswap.com/wp-content/uploads/2021/01/call-of-duty-modern-warfare.jpg",
+          "https://cdn-products.eneba.com/resized-products/MOyMg_5zUJYN6GtvpTgeaPpdhybIgKRFdRQHD1oJqEg_350x200_3x-0.jpeg",
+        ];
+
+        var img = document.createElement("img");
+        img.src = images[0];
+        img.style.width = "620px";
+        img.style.height = "620px";
+        document.body.appendChild(img);
+
+        function switchImage() {
+          if (index > images.length - 1) {
+            index = 0;
+          }
+          console.log("start", images[index]);
+          img.src = images[index];
+
+          index++;
+        }
+
+        setInterval(switchImage, 1000);
+      </script>
+    </div>
+  </body>
+</html>

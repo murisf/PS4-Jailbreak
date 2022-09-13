@@ -1,0 +1,106 @@
+body {
+    background-image: url('https://c1.wallpaperflare.com/preview/345/287/635/playstation-controller-blue-dark.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 720px;
+    margin: auto;
+    padding: 3px;
+}
+
+header {
+    background: red;
+    width: 601px;
+    height: 10x;
+    padding: 10px;
+    margin: 1px;
+    text-align: center;
+}
+
+img {
+    padding: 1px;
+}
+
+.oznaciti {
+    color: red;
+}
+
+.nav {
+    text-align: center;
+    font-size: 35px;
+    flex-direction: column;
+    position: absolute;
+    padding: 16px;
+    margin-top: 300px;
+}
+
+
+#wrapper {
+    width: 100%;
+    background-color: rgb(0, 150, 250,.1);
+    height: 550px;
+    width: 618px;
+    padding: 1px;
+    margin: 1px;
+    background-position: bottom;
+}
+
+
+h2 {
+    color: greenyellow;
+    font-size: 2em;
+    text-align: center;
+}
+
+h3 {
+    color: greenyellow;
+    font-size: 2em;
+    text-align: center;
+}
+
+strong {
+    color:greenyellow;
+    width:100%;
+    font-size: 1.3em;
+}
+
+p  {
+    color:darkorange;
+    font-size: 1.2em;
+    text-align: center;
+    text-align-last: auto;
+}
+
+.iframe {
+    float: left;
+}
+@media screen and (max-width:390px) {
+    body {
+        
+        width: 100%;
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width:390px) {
+    body {
+        
+        width: 100%;
+        font-size: 1em;
+    }
+
+}
+
+
+@media screen and (max-width:350px) {
+    body {
+        
+        width: 50%;
+        font-size: 1em;
+        
+    }
+
+}
